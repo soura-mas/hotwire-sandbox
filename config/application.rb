@@ -35,8 +35,5 @@ module HotwireSandbox
     config.time_zone = 'Asia/Tokyo'
     config.i18n.available_locales = [:ja]
     config.i18n.default_locale = :ja
-
-    # Don't generate system test files.
-    config.generators.system_tests = nil
   end
 end
